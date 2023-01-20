@@ -1,0 +1,38 @@
+:root{
+    --primary-dark:#a21caf;
+    --primary-light:#f5d0fe;
+}
+body{
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+}
+.container{
+width:50%;
+margin: auto;
+}
+
+
+input,label{
+    display: block;
+    padding:0.3rem;
+    font-size: large;
+}
+input{
+    margin-bottom: 0.3rem;
+    width:100%;
+}
+#check-number{
+    display: block;
+    padding:0.5rem;
+    margin:auto;
+    margin-top:1rem;
+}
+#output-box{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 2rem;
+}
